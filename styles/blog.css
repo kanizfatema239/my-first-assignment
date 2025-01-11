@@ -22,7 +22,7 @@ body{
 }
 nav{
     background-color: #f8f9fa;
-    padding: 1rem 0;
+    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ nav{
 .explore-btn{
     background: #28a745;
     color: white;
-    padding: 0.7rem 1.5rem;
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -49,15 +49,15 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: #e8f5e9;
-    padding: 2rem 0;
+    padding: 32px 0;
     height: auto;
     width: auto;
     
 }
 .banner-content h2{
-    font-size: 2rem;
+    font-size: 32px;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 .banner-image{
     max-width: 100%;
@@ -66,12 +66,12 @@ nav{
 .pillars {
     text-align: center;
     background-color: #f4f4f4;
-    padding: 2rem 0;
+    padding: 32px 0;
 }
 
 .pillars h2 {
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .pillars-grid {
@@ -84,7 +84,7 @@ nav{
 
 .pillar {
     background: #fff;
-    padding: 1.5rem;
+    padding: 24px;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
@@ -98,16 +98,16 @@ nav{
 .pillar img {
     width: 50px;
     height: 50px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 .vision {
     background: #fff;
-    padding: 2rem 0;
+    padding: 32px 0;
     text-align: center;
 }
 
 .vision h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     color: #333;
 }
 
@@ -115,12 +115,12 @@ nav{
     display: flex;
     justify-content: space-evenly;
     /* flex-wrap: wrap; */
-    gap: 1.5rem;
+    gap: 24px;
 }
 
 .vision-item {
     background: #f9f9f9;
-    padding: 1.5rem;
+    padding: 24px;
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 300px;
@@ -135,30 +135,30 @@ nav{
 .vision-item img {
     width: 10%;
     border-radius: 8px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 blockquote {
     background-position-x: left;
-    margin-top: 2rem;
+    margin-top: 32px;
     font-style: italic;
     color: #555;
 }
 
 blockquote footer {
-    margin-top: 0.5rem;
+    margin-top: 8px;
     font-weight: bold;
 }
 .opinion {
-    padding: 2rem;
+    padding: 32px;
     background-color: #f8f9fa;
     text-align: center;
 }
 
 .opinion h2 {
-    font-size: 1.8rem;
+    font-size: 28px;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .opinion-table {
@@ -174,17 +174,17 @@ blockquote footer {
 .opinion-table thead th {
     background-color: #d4f1d4;
     color: #333;
-    font-size: 1rem;
+    font-size: 16px;
     text-align: left;
-    padding: 0.75rem;
+    padding: 10px;
     border: 1px solid #ddd;
 }
 
 .opinion-table tbody td {
-    padding: 0.75rem;
+    padding: 10px;
     border: 1px solid #ddd;
     color: #555;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .opinion-table tbody tr:nth-child(even) {
@@ -192,8 +192,8 @@ blockquote footer {
 }
 
 .opinion-table select {
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 8px;
+    font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
@@ -206,21 +206,21 @@ blockquote footer {
     background-color: #d4f1d4;
 }
 .recent-news {
-    padding: 2rem;
+    padding: 32px;
     background-color: #f8f9fa;
     text-align: center;
 }
 
 .recent-news h2 {
-    font-size: 2rem;
+    font-size: 32px;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .recent-news p {
-    font-size: 1rem;
+    font-size: 16px;
     color: #555;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     line-height: 1.6;
 }
 
