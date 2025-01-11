@@ -365,3 +365,84 @@ blockquote footer {
 .donate-now:hover {
     background-color: #005f00;
 }
+.newsletter {
+    background: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.newsletter p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-form input {
+    width: 300px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.privacy-note {
+    font-size: 0.9rem;
+    color: #666;
+}
+.footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s;
+}
+
+.social-links img:hover { 
+    transform: scale(1.2); 
+}
